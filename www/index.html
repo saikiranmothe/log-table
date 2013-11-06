@@ -32,10 +32,11 @@
                 <p class="event listening">Know Log Values</p><hr>
                 <p class="event received">Tap Here and know Log Values</p>
                  <input type="text" id="demo"><hr>
-<button type="button" onclick="myFunction()">Click Me!</button>
+                 <button type="button" onclick="myFunction()">Know Log Value!</button>
             </div>
         </div>
 
+<p id="div1"></p>
 
 
 
@@ -43,11 +44,11 @@
 <script>
 function myFunction()
 {
-
-var y = document.getElementById('demo').value;
-alert(y);
-var x = document.write("your log value", Math.log(y));
-
+var x = document.getElementById('demo').value;
+alert( ' Your Log Value is' + "\t• \n" + "\n"
+ + Math.log(x) + ".")
+//var y = document.write("your log value", Math.log(x));
+//alert(y);
 }
 </script>
 
